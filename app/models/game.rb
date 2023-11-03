@@ -3,4 +3,5 @@ class Game < ApplicationRecord
   validates :num_round, presence: true
 
   has_many :categories
+  has_many :rounds
 end
